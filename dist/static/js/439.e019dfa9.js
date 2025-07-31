@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbuild_cdn_from_cdnjs=self.webpackChunkbuild_cdn_from_cdnjs||[]).push([[439],{6439:function(e,n,r){r.r(n),r.d(n,{default:function(){return u}});var c=r(4061);var o={name:"BaseRoute"};var u=(0,r(1456).A)(o,[["render",function(e,n,r,o,u,t){const s=(0,c.resolveComponent)("router-view");return(0,c.openBlock)(),(0,c.createBlock)(s)}]])}}]);
