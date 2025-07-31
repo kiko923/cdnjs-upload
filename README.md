@@ -15,6 +15,18 @@ COS_CUSTOM_DOMAIN=https://cdnjs.znnu.com
 COS_LIB_FOLDER=
 
 ````
+````
+docker run -d `
+  --name cdnjs-upload-api `
+  -p 13847:13847 `
+  -e COS_BUCKET_NAME=file-1300000000 `
+  -e COS_REGION=ap-guangzhou `
+  -e COS_SECRET_ID=AKIDeovpxxxxxxxxxxxxxxxxxxxxxx `
+  -e COS_SECRET_KEY=lJluDgJxxxxxxxxxxxxxxxxxxxxxx `
+  -e COS_CUSTOM_DOMAIN=https://cdnjs.znnu.com `
+  -e COS_LIB_FOLDER= `
+  yionchi/cdnjs-upload-api:2.0
+````
 
 ### 前端
 在前端项目里的 .env.production 修改；修改后重新打包
